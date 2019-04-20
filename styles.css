@@ -1,0 +1,31 @@
+#articleBOX {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+#article1 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(212, 22, 212);
+  width: 40%;
+  padding: 1em;
+}
+#article2 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(22, 230, 230);
+  width: 40%;
+  padding: 1em;
+}
+
+#container {
+  display: flex;
+  min-height: 1500px;
+}
+#audrey {
+  background-color: purple;
+  color: snow;
+  min-height: 100px;
+  width: 50px;
+  position: fixed;
+}
